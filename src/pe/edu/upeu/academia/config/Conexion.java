@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package pe.edu.upeu.academiaDAO;
+package pe.edu.upeu.academia.config;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
