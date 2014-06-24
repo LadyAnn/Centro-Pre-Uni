@@ -6,11 +6,18 @@
 
 package pe.edu.upeu.academia.modelo;
 
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
 /**
  *
  * @author alum.fial7
  */
 public class TipoIglesia {
+
+    public static TipoIglesia loadTipoIglesia(ResultSet rs) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     private int idti;
     private String nom_tipo;
 
@@ -36,5 +43,12 @@ public class TipoIglesia {
     public void setNom_tipo(String nom_tipo) {
         this.nom_tipo = nom_tipo;
     }
-    
+    public static TipoIglesia loadTipo_Iglesia(ResultSet rs) throws SQLException
+    {
+        TipoIglesia i= new TipoIglesia();//establecer id Distrito ----- establese
+        i.setIdti(rs.getInt("idtipo_iglesia"));
+        i.setIdti(rs.getInt("tipo_iglesia"));
+        
+        return i;
+    } 
 }

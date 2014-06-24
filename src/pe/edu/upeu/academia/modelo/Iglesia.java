@@ -6,6 +6,9 @@
 
 package pe.edu.upeu.academia.modelo;
 
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
 /**
  *
  * @author alum.fial7
@@ -66,4 +69,6 @@ public class Iglesia {
         this.igle = igle;
         this.cuenta = cuenta;
     }
+    
+    
 }
