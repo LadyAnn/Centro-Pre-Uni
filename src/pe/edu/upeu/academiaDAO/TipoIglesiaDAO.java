@@ -12,4 +12,5 @@ package pe.edu.upeu.academiaDAO;
  */
 public class TipoIglesiaDAO {
     
+    
 }
